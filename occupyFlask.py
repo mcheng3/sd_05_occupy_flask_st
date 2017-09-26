@@ -1,7 +1,7 @@
 import occupation
 from flask import Flask, render_template
 
-print(occupation.pickOccupation())
+#print(occupation.pickOccupation())
 
 my_app = Flask(__name__)
 
