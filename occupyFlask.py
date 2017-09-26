@@ -1,1 +1,3 @@
-print ' '
+import occupation
+
+print(occupation.pickOccupation())
