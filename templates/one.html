@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  </head>
+{% extends "template.html" %}
 
-  <body>
-    {% block content1 %}
-    {% endblock %}
-    {{job}}
-  </body>
-  
-</html>
+{% block content1 %}
+{{job}}
+{% endblock %}

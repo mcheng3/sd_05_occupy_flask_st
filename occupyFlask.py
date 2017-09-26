@@ -8,7 +8,7 @@ my_app = Flask(__name__)
 @my_app.route('/occupations')
 def displayOccupation():
     
-    return render_template('template.html', job = occupation.pickOccupation())
+    return render_template('one.html', job = occupation.pickOccupation())
 
 if __name__ == '__main__':
         my_app.debug = True
