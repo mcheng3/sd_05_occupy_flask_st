@@ -15,8 +15,16 @@
 
 
 {% block body1 %}
-
-{{table}}
+<table>
+<th align="left">Job Class</th>
+<th align="left">Percentage</th>
+{% for k, v in table %}
+<tr>
+	<td>{{k}} </td>
+	<td> {{v}} </td>
+</tr>
+{% endfor %}
+</table>
 
 <h3>Have no idea what you want to do? Here is a random one.</h3>
 <br>

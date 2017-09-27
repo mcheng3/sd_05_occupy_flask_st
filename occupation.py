@@ -35,10 +35,13 @@ def pickOccupation():
             bigList.append(k)
             counter += 1
     return random.choice(bigList)
+
+def getOccupationsDict():
+    return occupationsDict.items()
           
 #pickOccupation()
 
-def makeTable():
+'''def makeTable():
     output = "<table>"
     for k, v in occupationsDict.items():
         output += "<tr>"
@@ -46,7 +49,7 @@ def makeTable():
         output += "<td>" + str(v) + "</td>"
         output += "</tr>"
     output += "</table>"
-    return output
+    return output'''
 
 #print(makeTable())
     
