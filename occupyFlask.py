@@ -1,4 +1,4 @@
-import occupation
+from utils import occupation
 from flask import Flask, render_template
 
 #print(occupation.pickOccupation())
